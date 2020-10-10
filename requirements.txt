@@ -2,3 +2,4 @@ botbuilder-integration-aiohttp>=4.10.1
 botbuilder-core
 botbuilder-ai
 flask
+aiohttp
