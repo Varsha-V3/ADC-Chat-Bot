@@ -34,5 +34,5 @@ jobs:
       with:
         app-name: 'adcchatbot'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_54ed4d146d104819bfb77239b8443235 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_c3bd06487c4a476991d48bc60dd147eb }}
         package: '.\myapp.zip'
