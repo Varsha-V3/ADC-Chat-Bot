@@ -11,8 +11,10 @@ class DefaultConfig:
     """ Bot Configuration """
 
     PORT = 3978
-    APP_ID = os.environ.get("MicrosoftAppId", "")
-    APP_PASSWORD = os.environ.get("MicrosoftAppPassword", "")
+    #APP_ID = os.environ.get("MicrosoftAppId", "")
+    #APP_PASSWORD = os.environ.get("MicrosoftAppPassword", "")
+    APP_ID=os.environ['APP_ID']
+    APP_PASSWORD=os.environ['APP_PASSWORD']
 
     QNA_KNOWLEDGEBASE_ID = os.environ.get("QnAKnowledgebaseId", "6552af1b-2f8f-44be-af69-0469067df59e")
     QNA_ENDPOINT_KEY = os.environ.get("QnAEndpointKey", "a6958ce9-5d0c-4cf8-8f3a-d2700ef08568")
