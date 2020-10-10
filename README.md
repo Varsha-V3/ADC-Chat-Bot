@@ -7,7 +7,7 @@ This bot has been created using python and bot frameworks.
 
 - Clone the repository
 ```bash
-git clone https://github.com/Microsoft/botbuilder-samples.git
+git clone https://github.com/Varsha-V3/ADC-Chat-Bot.git
 ```
 - In a terminal, navigate to `botbuilder-samples\samples\python\03.welcome-user` folder
 - Activate your desired virtual environment
@@ -28,8 +28,7 @@ git clone https://github.com/Microsoft/botbuilder-samples.git
 
 ## Interacting with the bot
 
-The primary goal when creating any bot is to engage your user in a meaningful conversation. One of the best ways to achieve this goal is to ensure that from the moment a user first connects, they understand your bot’s main purpose and capabilities, the reason your bot was created. See [Send welcome message to users](https://aka.ms/botframework-welcome-instructions) for additional information on how a bot can welcome users to a conversation.
-
+The primary goal of this ADC Chat bot is to engage your user in a meaningful conversation.Sends welcome message to users ans also help users find bot insights
 ## Deploy the bot to Azure
 
 To learn more about deploying a bot to Azure, see [Deploy your bot to Azure](https://aka.ms/azuredeployment) for a complete list of deployment instructions.
